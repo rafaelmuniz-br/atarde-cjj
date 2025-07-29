@@ -9,6 +9,16 @@ on:
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest # Usa a última versão do Ubuntu para o ambiente de build
+    environment:
+      name: github-pages # Ambiente de deploy padrão para GitHub Pages
+      url: ${{ steps.deployment.outputs.page_url }} # Define a URL do site após o deploy
+
+    # --- INÍCIO DA SEÇÃO DE PERMISSÕES CRUCIAIS ---
+    permissions:
+      contents: read     # Permissão para ler o código do repositório
+      pages: write       # Permissão para fazer o deploy para o GitHub Pages
+      id-token: write    # Permissão necessária para actions/deploy-pages@v4 (OIDC Token)
+    # --- FIM DA SEÇÃO DE PERMISSÕES CRUCIAIS ---
 
     steps:
       - name: Checkout repository
@@ -26,10 +36,16 @@ jobs:
       - name: Generate static site
         run: npm run generate # Executa o comando Nuxt generate para criar a build estática
 
-      - name: Deploy to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v3 # Action de terceiros para deploy em GitHub Pages
+      # --- NOVOS PASSOS PARA ACTIONS/DEPLOY-PAGES@V4 ---
+      - name: Setup Pages
+        uses: actions/configure-pages@v4 # Configura o ambiente para deploy de Pages
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }} # Token de autenticação fornecido automaticamente pelo GitHub
-          publish_dir: ./.output/public # A pasta onde o Nuxt 3 SSG gera os arquivos estáticos
-          publish_branch: gh-pages # A branch para onde a build será enviada
-          force_orphan: true # Cria uma nova branch gh-pages limpa a cada deploy (ótimo para manter a história limpa)
+          path: './.output/public' # A pasta onde o Nuxt 3 SSG gera os arquivos estáticos
+      # --- FIM DOS NOVOS PASSOS ---
+
+      - name: Deploy to GitHub Pages
+        id: deployment # Necessário para o environment.url acima
+        uses: actions/deploy-pages@v4 # Ação oficial para deploy em GitHub Pages
