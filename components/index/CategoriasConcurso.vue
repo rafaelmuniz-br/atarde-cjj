@@ -185,7 +185,7 @@
     }
 
     .carousel {
-      padding-left: 20px;
+      padding-left: 0px;
       padding-right: 20px;
       max-width: 100%;
     }
