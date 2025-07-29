@@ -56,7 +56,6 @@
 <style scoped>
   .categories {
     padding: 60px 20px;
-    background: #f9f9f9;
     font-family: 'Montserrat', sans-serif;
     overflow-x: hidden;
   }
