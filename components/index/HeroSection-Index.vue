@@ -4,7 +4,7 @@
     description="S.O.S: se a Terra gritasse, o que ela diria?<br>O planeta pede socorro, sua criatividade pode ser a resposta."
     buttonText="Inscreva-se agora"
     buttonLink="#inscreva-se"
-    imageSrc="/imgsOK/mosaico-index.svg"
+    imageSrc="imgsOK/mosaico-index.svg"
     imageAlt="Arte"
   />
 </template>

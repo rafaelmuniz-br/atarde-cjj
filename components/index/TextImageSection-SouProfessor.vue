@@ -8,7 +8,7 @@
     3.Após preenchimento da planilha, envie-a juntamente com os arquivos das produções dos(as) alunos(as) para o email email@email.com. Todos os trabalhos devem ser organizados e enviados em um único arquivo PDF.</strong><br><br>  
     Lembre-se de seguir todas as orientações para garantir a inscrição dentro do prazo estabelecido.<br>Agradecemos a colaboração.
     "
-    imageSrc="/imgsOK/souprofessor.svg"
+    imageSrc="imgsOK/souprofessor.svg"
     imageAlt="Professor"
     buttonText="Acesse a planilha"
     buttonLink="#"

@@ -5,7 +5,7 @@
     description="Saiba o que é necessário para dar voz ao planeta"
     linkText="Inscreva-se agora"
     linkHref="#"
-    imageSrc="/imgsOK/mosaico-card1.svg"
+    imageSrc="imgsOK/mosaico-card1.svg"
     imageAlt="Imagem Saiba Mais"
     :reverse="false"
     titleColor="#f9f9f9"

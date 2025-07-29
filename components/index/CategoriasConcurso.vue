@@ -26,7 +26,7 @@
 <script setup>
   const categories = [
     {
-      img: '/imgsOK/fundamental1-pequeno.svg',
+      img: 'imgsOK/fundamental1-pequeno.svg',
       title: 'TIRINHAS',
       subtitle: 'Ensino Fundamental I',
       description:
@@ -34,7 +34,7 @@
       link: '/inscricao#fundamental1',
     },
     {
-      img: '/imgsOK/fundamental2-pequeno.svg',
+      img: 'imgsOK/fundamental2-pequeno.svg',
       title: 'VIDEORREPORTAGEM',
       subtitle: 'Ensino Fundamental II',
       description:
@@ -42,7 +42,7 @@
       link: '/inscricao#fundamental2',
     },
     {
-      img: '/imgsOK/ensinomedio-pequeno.svg',
+      img: 'imgsOK/ensinomedio-pequeno.svg',
       title: 'ARTIGO DE OPINIÃO',
       subtitle: 'Ensino Médio',
       description:
@@ -50,7 +50,7 @@
       link: '/inscricao#ensinomedio',
     },
     {
-      img: '/imgsOK/EJA-pequeno.svg',
+      img: 'imgsOK/EJA-pequeno.svg',
       title: 'CRÔNICA',
       subtitle: 'Educação de Jovens e Adultos',
       description:
