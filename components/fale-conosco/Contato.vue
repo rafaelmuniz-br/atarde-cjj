@@ -77,7 +77,7 @@
       </div>
 
       <div class="image-section">
-        <img src="imgsOK/mosaico-faleconosco.svg" alt="Ilustração Fale Conosco" width="500" height="400" />
+        <img src="/imgsOK/mosaico-faleconosco.svg" alt="Ilustração Fale Conosco" width="500" height="400" />
       </div>
     </div>
   </section>
