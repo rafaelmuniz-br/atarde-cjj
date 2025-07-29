@@ -28,7 +28,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 68px 20px 30px;
+    padding: 100px 20px 30px;
     background: white;
     width: 100%;
     max-width: none;
