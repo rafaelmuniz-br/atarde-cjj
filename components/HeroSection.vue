@@ -76,7 +76,7 @@
   @media (max-width: 1110px) {
     .hero-section {
       flex-direction: column;
-      padding: 100px 20px 20px;
+      padding: 70px 20px 20px;
       text-align: center;
     }
     .hero-text {

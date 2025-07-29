@@ -91,7 +91,7 @@
     text-align: left;
   }
   .card__content-wrapper--reversed .card__content {
-    text-align: right;
+    text-align: center;
   }
   .card__title {
     font-family: 'Codec Warm Trial', sans-serif;
