@@ -1,0 +1,35 @@
+# .github/workflows/deploy.yml
+name: Deploy Nuxt 3 SSG to GitHub Pages
+
+on:
+  push:
+    branches:
+      - main # Este workflow será acionado sempre que houver um push para a branch 'main'
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest # Usa a última versão do Ubuntu para o ambiente de build
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4 # Baixa o código do seu repositório
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20' # Recomendado para Nuxt 3 (ou '18' se preferir)
+          cache: 'npm' # Habilita cache para npm install, acelerando builds futuras
+
+      - name: Install dependencies
+        run: npm install # Instala as dependências do seu projeto
+
+      - name: Generate static site
+        run: npm run generate # Executa o comando Nuxt generate para criar a build estática
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3 # Action de terceiros para deploy em GitHub Pages
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }} # Token de autenticação fornecido automaticamente pelo GitHub
+          publish_dir: ./.output/public # A pasta onde o Nuxt 3 SSG gera os arquivos estáticos
+          publish_branch: gh-pages # A branch para onde a build será enviada
+          force_orphan: true # Cria uma nova branch gh-pages limpa a cada deploy (ótimo para manter a história limpa)

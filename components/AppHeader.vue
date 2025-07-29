@@ -90,7 +90,7 @@
   }
 
   .logo img {
-    height: 40px;
+    height: 70px;
     margin-right: 50px;
   }
 
