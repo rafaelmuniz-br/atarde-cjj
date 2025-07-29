@@ -15,9 +15,9 @@
         <h3>{{ item.title }}</h3>
         <span class="card-subtitle">{{ item.subtitle }}</span>
         <p class="description" v-html="item.description"></p>
-        <a :href="item.link" class="card-cta">
+        <NuxtLink :href="item.link" class="card-cta">
           Saiba mais <span class="arrow">→</span>
-        </a>
+        </NuxtLink>
       </div>
     </div>
   </section>
