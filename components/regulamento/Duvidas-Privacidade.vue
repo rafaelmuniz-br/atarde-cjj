@@ -12,7 +12,7 @@
   const faqItems = [
     {
       question: '1. Coleta de Dados Pessoais',
-      answer: 'Durante a inscrição e participação no concurso, podemos coletar dados pessoais, como nome completo, CPF, endereço de e-mail, gênero, data de nascimento, telefone, endereço (CEP, Rua, número, complemento, bairro, cidade, estado), nome da mãe, nome de usuário e senha, e outros dados relevantes para a organização e comunicação do concurso. Esses dados são fornecidos diretamente por você ao preencher formulários em nosso site. Reforçamos que os participantes menores de idade precisarão da autorização expressa do responsável conforme o regulamento do concurso disponível nesta plataforma (<a href=\'[inserir link do regulamento]\' target=\'_blank\'>acessar aqui</a>).',
+      answer: 'Durante a inscrição e participação no concurso, podemos coletar dados pessoais, como nome completo, CPF, endereço de e-mail, gênero, data de nascimento, telefone, endereço (CEP, Rua, número, complemento, bairro, cidade, estado), nome da mãe, nome de usuário e senha, e outros dados relevantes para a organização e comunicação do concurso. Esses dados são fornecidos diretamente por você ao preencher formulários em nosso site. Reforçamos que os participantes menores de idade precisarão da autorização expressa do responsável conforme o regulamento do concurso disponível nesta plataforma (<a href=\'https://www.google.com/\' target=\'_blank\'>acessar aqui</a>).',
     },
     {
       question: '2. Finalidade do Tratamento de Dados',
