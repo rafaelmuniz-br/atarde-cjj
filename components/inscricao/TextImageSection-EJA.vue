@@ -22,7 +22,7 @@
         A linguagem da crônica é mais solta, próxima da fala. Estruture com começo, meio e fim, e procure surpreender no desfecho. Certifique-se de que seu texto tem de 1.750 a 2.700 caracteres com espaços (25 a 30 linhas).        
         "
 
-      imageSrc="/imgsOK/EJA-grande.svg"
+      imageSrc="imgsOK/EJA-grande.svg"
       imageAlt="EJA"
       buttonText="Inscreva-se"
       buttonLink="#"

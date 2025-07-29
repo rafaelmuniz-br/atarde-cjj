@@ -23,28 +23,28 @@
 <script setup>
   const edicoes = [
     {
-      img: '/imgsOK/edicao2014.svg',
+      img: 'imgsOK/edicao2014.svg',
       title: '2014',
       sub: 'Um Furo de Notícia',
       description:
         'Com o tema "Um Furo na Notícia", a 1ª edição do Concurso Cultural Jovem Jornalista desafiou os jovens a explorarem o conceito de exclusividade na informação, nas categorias de videorreportagem e tirinhas. Essa edição foi marcada pela ênfase, na rapidez e precisão do jornalismo.',
     },
     {
-      img: '/imgsOK/edicao2015.svg',
+      img: 'imgsOK/edicao2015.svg',
       title: '2015',
       sub: 'História de Vida',
       description:
         'Com o tema "Um Furo na Notícia", a 2ª edição do Concurso Cultural Jovem Jornalista desafiou os jovens a explorarem o conceito de exclusividade na informação, nas categorias de videorreportagem e tirinhas. Essa edição foi marcada pela ênfase, na rapidez e precisão do jornalismo.',
     },
     {
-      img: '/imgsOK/edicao2017.svg',
+      img: 'imgsOK/edicao2017.svg',
       title: '2017',
       sub: 'Leitura Saudável na Era Digital',
       description:
         'Na 3ª edição do Concurso Cultural Jovem Jornalista, com o tema: "Leitura Saudável na Era Digital", os participantes foram desafiados a criar conteúdo em três categorias: videorreportagem, tirinhas e artigo de opinião. Alunos e professores foram premiados em três colocações, celebrando a criatividade e a inovação na produção jornalística.',
     },
     {
-      img: '/imgsOK/edicao2024.svg',
+      img: 'imgsOK/edicao2024.svg',
       title: '2024',
       sub: 'Sou digital, mas a minha inteligência não é artificial',
       description:

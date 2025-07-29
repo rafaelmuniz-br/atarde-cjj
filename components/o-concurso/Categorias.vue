@@ -25,28 +25,28 @@
 <script setup>
   const categories = [
     {
-      img: '/imgsOK/fundamental1-pequeno.svg',
+      img: 'imgsOK/fundamental1-pequeno.svg',
       title: 'Ensino Fundamental I',
       subtitle: 'TIRINHAS',
       description:
         'São pequenas histórias em quadrinhos, geralmente com poucos quadros, que combinam imagem e texto para transmitir uma ideia, crítica ou humor. Elas abordam temas variados de forma leve, rápida e criativa.',
     },
     {
-      img: '/imgsOK/fundamental2-pequeno.svg',
+      img: 'imgsOK/fundamental2-pequeno.svg',
       title: 'VIDEORREPORTAGEM',
       subtitle: 'Ensino Fundamental II',
       description:
         'É uma produção audiovisual gravada e editada por uma pessoa, combinando imagens, sons e entrevistas. Ela relata uma história ou evento de forma dinâmica e visual, abordando temas atuais de maneira criativa.',
     },
     {
-      img: '/imgsOK/ensinomedio-pequeno.svg',
+      img: 'imgsOK/ensinomedio-pequeno.svg',
       title: 'ARTIGO DE OPINIÃO',
       subtitle: 'Ensino Médio',
       description:
         'É um texto em que o autor expõe suas ideias e argumentos sobre um tema específico. Ele tem como objetivo convencer o leitor de um ponto de vista, utilizando argumentos lógicos e bem estruturados.',
     },
     {
-      img: '/imgsOK/EJA-pequeno.svg',
+      img: 'imgsOK/EJA-pequeno.svg',
       title: 'CRÔNICA',
       subtitle: 'Educação de Jovens e Adultos',
       description:

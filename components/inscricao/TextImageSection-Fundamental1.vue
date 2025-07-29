@@ -16,7 +16,7 @@
 
         <strong>3º Faça o desenho:</strong><br>
         O desenho deve ser manual. Não precisa desenhar perfeito! O mais importante é que as pessoas entendam a ideia."
-      imageSrc="/imgsOK/fundamental1-grande.svg"
+      imageSrc="imgsOK/fundamental1-grande.svg"
       imageAlt="Fundamental1"
       buttonText="Inscreva-se"
       buttonLink="#"

@@ -22,7 +22,7 @@
         <strong>5º Finalize com estilo:</strong><br>
         Seu vídeo deve ter de 1 a 3 minutos e ser hospedado em uma plataforma online, como YouTube ou Vimeo. Insira o link (URL) no ato da inscrição."
 
-      imageSrc="/imgsOK/fundamental2-grande.svg"
+      imageSrc="imgsOK/fundamental2-grande.svg"
       imageAlt="Fundamental2"
       buttonText="Inscreva-se"
       buttonLink="#"

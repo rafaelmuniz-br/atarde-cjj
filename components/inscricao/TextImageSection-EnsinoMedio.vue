@@ -18,7 +18,7 @@
         <strong>3º Dê aquele ajuste final:</strong><br>
         Com o texto quase pronto, revise tudo, corrigindo a gramática, a ortografia e a pontuação. Certifique-se de que seu texto tem de 1.750 a 2.700 caracteres com espaços (25 a 30 linhas)."
 
-      imageSrc="/imgsOK/ensinomedio-grande.svg"
+      imageSrc="imgsOK/ensinomedio-grande.svg"
       imageAlt="EnsinoMedio"
       buttonText="Inscreva-se"
       buttonLink="#"

@@ -5,7 +5,7 @@
       description="📧 jovemjornalista@grupoatarde.com.br<p>📸 @atardeeducacao"
       linkText=""
       linkHref="#"
-      imageSrc="/imgsOK/mosaico-card1.svg"
+      imageSrc="imgsOK/mosaico-card1.svg"
       imageAlt="Imagem Saiba Mais"
       :reverse="true"
       titleColor="#f9f9f9"
