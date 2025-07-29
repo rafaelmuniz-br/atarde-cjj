@@ -256,6 +256,10 @@
       order: 2; 
     }
 
+    .form-input{
+      width: auto;
+    }
+
     .fale-conosco-title {
         text-align: center;
     }
@@ -288,6 +292,10 @@
   @media (max-width: 480px) {
     .form-section {
       padding: 20px 15px; 
+    }
+
+    .form-input{
+      width: auto;
     }
 
     .fale-conosco-title {

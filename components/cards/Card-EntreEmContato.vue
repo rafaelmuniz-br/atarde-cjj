@@ -2,7 +2,7 @@
     <Card
       bgColor="#056DAC"
       title="Entre em contato conosco"
-      description="📧 jovemjornalista@grupoatarde.com.br<p>📸 @atardeeducacao"
+      description="jovemjornalista@grupoatarde.com.br<p>@atardeeducacao"
       linkText=""
       linkHref="#"
       imageSrc="imgsOK/mosaico-card1.svg"
@@ -21,6 +21,16 @@
 </script>
 
 <style scoped>
+::v-deep(.card__content-wrapper--reversed .card__content) {
+  text-align: left;
+}
+
+@media (max-width: 768px) {
   ::v-deep(.card__content-wrapper--reversed .card__content) {
-      text-align: left;}
+    text-align: center;
+  }
+}
+
+
+
 </style>
