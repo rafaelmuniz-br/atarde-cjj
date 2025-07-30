@@ -112,16 +112,20 @@
     display: flex;
     gap: 80px;
     align-items: flex-start;
-    justify-content: space-between;
+    justify-content: space-between; /* Mantido original para image-section */
     flex-wrap: wrap; 
   }
   
   .form-section {
     flex: 1;
-    max-width: 30vw; 
-    min-width: 350px;
+    /* Alterado: Definido max-width em pixels para controlar a largura máxima em telas grandes */
+    max-width: 600px; /* Um valor de exemplo, ajuste conforme desejar */
+    width: 100%; /* Garante que ocupe 100% do espaço disponível até o max-width */
+    min-width: 300px; /* Min-width para evitar que o formulário fique muito pequeno */
     padding: 30px 25px;
     border-radius: 8px;
+    /* Essencial: Inclui padding e border no cálculo da largura total */
+    box-sizing: border-box; 
   }
   
   .fale-conosco-header {
@@ -161,7 +165,7 @@
   
   .form-input,
   .form-textarea {
-    width: 100%;
+    width: 100%; /* Garante que preencham 100% do .form-group */
     padding: 12px 15px;
     border: 1px solid #056DAC;
     border-radius: 20px;
@@ -170,6 +174,8 @@
     color: #056DAC;
     outline: none;
     transition: border-color 0.3s ease, box-shadow 0.3s ease;
+    /* Essencial: Inclui padding e border no cálculo da largura total */
+    box-sizing: border-box; 
   }
   
   .form-input::placeholder,
@@ -218,12 +224,16 @@
     border: none;
     cursor: pointer;
     transition: background-color 0.3s ease;
+    /* Alterado: Garante que o botão tenha sua largura natural (auto) */
+    width: auto; 
+    text-align: center;
   }
   
   .btn-submit:hover {
     background: #d97f2a;
   }
   
+  /* --- Estilos Originais da Imagem (Nenhuma alteração aqui) --- */
   .image-section {
     flex: 1; 
     max-width: 50vw; 
@@ -241,33 +251,36 @@
     display: block;
   }
   
+  /* --- MEDIA QUERIES --- */
   @media (max-width: 1110px) {
     .fale-conosco-container {
       flex-direction: column;
       align-items: center;
       gap: 30px;
+      justify-content: center; /* Centraliza quando em coluna */
     }
   
     .form-section {
       text-align: center;
-      max-width: 100%; 
-      min-width: unset; 
+      max-width: 100%; /* Permite que o formulário ocupe toda a largura */
+      min-width: unset; /* Remove min-width para permitir encolhimento */
       margin: auto; 
       order: 2; 
     }
 
-    .form-input{
+    /* Removido: width: auto no form-input não é necessário aqui */
+    /* .form-input{
       width: auto;
-    }
+    } */
 
     .fale-conosco-title {
         text-align: center;
     }
   
     .image-section {
-      width: 100%; 
-      max-width: 100%;
-      min-width: unset; 
+      width: 100%; /* Permite que a imagem ocupe 100% da largura em coluna */
+      max-width: 100%; /* Garante que a imagem não seja muito grande */
+      min-width: unset; /* Remove min-width para permitir encolhimento */
       margin-left: 0;
       margin-top: 30px;
       order: 1;
@@ -283,23 +296,44 @@
         gap: 10px;
     }
 
-    .btn-submit {
+    /* Removido: Não aplica width: 100% ao botão nesta media query */
+    /* .btn-submit {
         width: 100%; 
         text-align: center;
-    }
+    } */
   }
 
   @media (max-width: 480px) {
-    .form-section {
-      padding: 20px 15px; 
+    .fale-conosco-wrapper {
+      padding: 20px 10px; /* Ajuste de padding para telas muito pequenas */
     }
 
-    .form-input{
-      width: auto;
+    .form-section {
+      padding: 20px 15px; 
+      min-width: unset; /* Garante que o form-section possa encolher o máximo possível */
     }
+
+    /* Removido: width: auto no form-input não é necessário aqui */
+    /* .form-input{
+      width: auto;
+    } */
 
     .fale-conosco-title {
       font-size: 1.75rem; 
+    }
+
+    .form-input,
+    .form-textarea {
+      padding: 10px 12px; /* Ajuste o padding dos inputs para telas menores */
+      font-size: 0.95rem;
+      box-sizing: border-box; /* Garante que o padding não cause overflow */
+    }
+
+    .btn-submit {
+      padding: 8px 15px; /* Ajuste o padding do botão para telas menores */
+      font-size: 13px;
+      /* Se precisar que o botão ocupe 100% em telas *muito* pequenas, adicione width: 100%; aqui */
+      /* width: 100%; */
     }
   }
 </style>
