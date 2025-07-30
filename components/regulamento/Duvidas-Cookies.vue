@@ -1,5 +1,6 @@
 <template>
   <Duvidas
+    id="Duvidas-Cookies"
     title="Aviso de Cookies"
     subtitle="Saiba como usamos cookies para melhorar sua experiência no site."
     :faqItems="faqItems"
