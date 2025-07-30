@@ -2,9 +2,9 @@
   <div v-if="showBanner" class="cookie-banner">
     <p>
       Nesta página, usamos cookies para garantir que você tenha a melhor experiência.
-      <a href="#politica-de-cookies" class="cookie-link">
+      <NuxtLink href="/regulamento#Duvidas-Cookies" class="cookie-link">
         Mais informações <img src="/public/icons/arrow-right.svg" alt="Seta para direita" loading="lazy" />
-      </a>
+      </NuxtLink>
     </p>
     <button class="cookie-button" @click="acceptCookies">Ok, entendi!</button>
   </div>
