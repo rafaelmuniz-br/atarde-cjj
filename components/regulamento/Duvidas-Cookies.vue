@@ -38,7 +38,7 @@
     },
     {
       question: '7. Contato',
-      answer: 'Se você tiver dúvidas sobre o uso de cookies ou sobre o tratamento de seus dados pessoais, entre em contato conosco através do e-mail [inserir e-mail de contato] ou por meio do endereço [inserir endereço de contato].',
+    answer: 'Se você tiver dúvidas sobre o uso de cookies ou sobre o tratamento de seus dados pessoais, entre em contato conosco através do e-mail <strong><a href="mailto:jovemjornalista@grupoatarde.com.br">jovemjornalista@grupoatarde.com.br</a></strong>.',
     },
   ];
 </script>

@@ -36,7 +36,7 @@
     },
     {
       question: '7. Contato',
-      answer: 'Se você tiver dúvidas sobre esta Política de Privacidade ou sobre o tratamento dos seus dados pessoais, entre em contato conosco através do e-mail <strong>[inserir e-mail de contato]</strong> ou por meio do endereço/telefone <strong>[inserir endereço de contato ou telefone]</strong>.',
+      answer: 'Se você tiver dúvidas sobre esta Política de Privacidade ou sobre o tratamento dos seus dados pessoais, entre em contato conosco através do e-mail <strong><a href="mailto:jovemjornalista@grupoatarde.com.br">jovemjornalista@grupoatarde.com.br</a></strong>.',
     },
   ];
 </script>

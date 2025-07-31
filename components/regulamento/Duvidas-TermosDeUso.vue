@@ -48,7 +48,7 @@
     },
     {
       question: '10. Contato',
-      answer: 'Se você tiver dúvidas ou questões sobre este Termo de Uso ou sobre o tratamento dos seus dados pessoais, entre em contato conosco através do e-mail <strong>[inserir e-mail de contato]</strong> ou por meio do endereço <strong>[inserir endereço de contato]</strong>.',
+      answer: 'Se você tiver dúvidas ou questões sobre este Termo de Uso ou sobre o tratamento dos seus dados pessoais, entre em contato conosco através do e-mail <strong><a href="mailto:jovemjornalista@grupoatarde.com.br">jovemjornalista@grupoatarde.com.br</a></strong>.',
     },
   ];
 </script>
