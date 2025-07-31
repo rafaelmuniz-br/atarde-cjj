@@ -1,7 +1,7 @@
 <template>
     <Card
       bgColor="#82B834"
-      title="Observação:"
+      title="Atenção!"
       description="Se o vídeo incluir a participação de terceiros, será necessário o uso do modelo do termo de autorização de imagens."
       linkText="Baixe aqui"
       linkHref="#"

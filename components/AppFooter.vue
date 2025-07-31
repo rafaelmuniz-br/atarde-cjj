@@ -18,15 +18,27 @@
         </div>
       </div>
 
-      <div class="footer-logos">
-        <img src="/public/logos/atarde1.svg" alt="Grupo A TARDE" />
-        <img src="/public/logos/educacao1.svg" alt="A TARDE Educação" />
-        <img src="/public/logos/atarde1.svg" alt="Grupo A TARDE" />
-        <img src="/public/logos/educacao1.svg" alt="A TARDE Educação" />
-        <img src="/public/logos/atarde1.svg" alt="Grupo A TARDE" />
+      <section class="logos">
+  <div class="logos-container">
+    <div class="footer-logos-group realizacao">
+      <p>Realização</p>
+      <div class="logos-list">
         <img src="/public/logos/educacao1.svg" alt="A TARDE Educação" />
         <img src="/public/logos/atarde1.svg" alt="Grupo A TARDE" />
       </div>
+    </div>
+
+    <div class="footer-logos-group apoio">
+      <p>Apoio</p>
+      <div class="logos-list">
+        <img src="/public/logos/CBPM.svg" alt="CBPM" />
+        <img src="/public/logos/CODEBA.svg" alt="CODEBA" />
+        <img src="/public/logos/DETRAN.svg" alt="DETRAN" />
+      </div>
+    </div>
+  </div>
+</section>
+
 
       <div class="footer-bottom">
         <div class="footer-links">
@@ -41,6 +53,74 @@
 </template>
 
 <style scoped>
+  /* Somente adicione esse CSS novo (mantendo o restante intacto) */
+
+.logos-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 0 20px;
+  margin: 20px 0 50px;
+  gap: 100px;
+  }
+
+.footer-logos-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-logos-group.apoio {
+  text-align: left;
+}
+
+.footer-logos-group p {
+  font-weight: 300;
+  margin-bottom: 10px;
+  color: #056DAC;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.logos-list {
+  display: flex;
+  gap: 50px;
+  text-align: left;
+}
+
+.logos-list img {
+  height: 30px;
+}
+
+/* Responsivo */
+@media (max-width: 768px) {
+  .logos-container {
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    padding: 0;
+  }
+
+  .footer-logos-group.apoio {
+    align-items: center;
+  }
+
+  .footer-logos-group.realizacao {
+    align-items: center;
+  }
+
+  .footer-logos-group.apoio p{
+    padding-bottom: 10px;
+  }
+
+  .footer-logos-group.realizacao p {
+    padding-bottom: 10px;
+  }
+
+  .logos-list {
+    justify-content: center;
+  }
+}
+
+
   .page-wrapper {
     display: flex;
     align-items: center;         
@@ -61,7 +141,7 @@
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
-    margin: 0 auto 50px;
+    margin: 0 auto 20px;
     padding: 0 20px;
     }
   .footer-left {

@@ -70,7 +70,7 @@
 
           <div class="form-actions">
             <p class="required-note">*Campo obrigatório</p>
-            <button type="submit" class="btn-submit">Enviar mensagem</button>
+            <button type="submit" class="btn-submit">Enviar email</button>
           </div>
           
         </form>
@@ -216,7 +216,7 @@
   .btn-submit {
     background: #EE9137;
     color: white;
-    padding: 10px 20px;
+    padding: 10px 40px;
     border-radius: 20px;
     font-family: 'Codec Warm Trial', sans-serif;
     font-weight: 700;

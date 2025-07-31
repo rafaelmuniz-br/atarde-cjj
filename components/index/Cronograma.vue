@@ -13,10 +13,10 @@
 
 <script setup>
   const eventos = [
-    { titulo: 'Abertura das inscrições', data: '16/06' },
-    { titulo: 'Encerramento das inscrições', data: '13/08' },
-    { titulo: 'Divulgação dos finalistas', data: '05/09' },
-    { titulo: 'Premiação', data: '19/09' },
+    { titulo: 'Abertura das inscrições', data: '04/08' },
+    { titulo: 'Encerramento das inscrições', data: '10/10' },
+    { titulo: 'Divulgação dos finalistas', data: '29/10' },
+    { titulo: 'Premiação', data: '19/11' },
   ]
 </script>
 

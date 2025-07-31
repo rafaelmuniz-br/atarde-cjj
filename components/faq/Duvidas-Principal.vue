@@ -16,7 +16,7 @@
       },
       {
         question: 'Quando começam e terminam as inscrições?',
-        answer: 'As inscrições estarão abertas de <strong>16 de junho a 13 de agosto de 2025.</strong>',
+        answer: 'As inscrições estarão abertas de <strong>4 de agosto a 10 de outubro de 2025.</strong>',
       },
       {
         question: 'Preciso me inscrever sozinho(a)?',
