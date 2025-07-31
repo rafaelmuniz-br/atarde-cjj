@@ -89,6 +89,7 @@
   .card__content {
     flex: 1;
     text-align: left;
+    padding-left: 50px;
   }
   .card__content-wrapper--reversed .card__content {
     text-align: center;
@@ -161,7 +162,9 @@
       padding: 0;
     }
     .card__content {
-      text-align: center
+      text-align: center;
+      padding-right: 50px;
+      padding-left: 50px;
     }
     .card__title {
       font-size: 1.5rem;

@@ -63,6 +63,11 @@
     padding-right: 50px;
     text-align: right;
   }
+
+  .premiacao-card .text-content{
+    text-align: left;
+    padding-left: 50px;
+  }
   
   .card-title {
     font-family: 'Montserrat', sans-serif;
@@ -90,13 +95,12 @@
   }
   
   .image-wrapper {
-    width: 250px;
+    width: 350px;
     height: 200px;
     overflow: hidden;
     display: flex;
     align-items: center;
-    justify-content: center;
-    
+    justify-content: center; 
   }
   
   .card-image {
@@ -110,7 +114,10 @@
       min-height: auto;
       max-width: 95%;
       margin: 15px auto;
+      
     }
+
+
 
     .content-wrapper {
       flex-direction: column-reverse;
@@ -122,9 +129,14 @@
       flex-direction: column-reverse;
     }
 
-    .text-content {
-      padding: 10px;
+    .premiacao-card--reversed .text-content {
       text-align: center;
+      padding: 0;
+    }
+
+    .premiacao-card .text-content {
+      text-align: center;
+      padding: 0;
     }
 
     .premiacao-card--reversed .text-content {
@@ -139,6 +151,8 @@
 
     .card-description {
       font-size: 0.8rem;
+      padding-left: 50px;
+      padding-right: 50px;
     }
 
     .image-wrapper {
