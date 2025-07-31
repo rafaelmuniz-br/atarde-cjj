@@ -1,13 +1,14 @@
 <template>
   <section class="section vencedores">
     <h2>Vídeo - vencedores da última edição</h2>
-    <p>Lembre-se de seguir todas as orientações para garantir a inscrição dentro do prazo estabelecido.<br>Agradecemos a colaboração.</p>
     <div class="video-wrapper">
       <video controls width="100%" height="auto" poster="">
         <source src="" type="video/mp4" />
         Seu navegador não suporta o elemento de vídeo.
       </video>
     </div>
+    <p>Lembre-se de seguir todas as orientações para garantir a inscrição dentro do prazo estabelecido.<br>Agradecemos a colaboração.</p>
+
   </section>
 </template>
   
