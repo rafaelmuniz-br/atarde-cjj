@@ -11,7 +11,7 @@
     imageSrc="imgsOK/souprofessor.svg"
     imageAlt="Professor"
     buttonText="Acesse a planilha"
-    buttonLink="#"
+    buttonLink="https://docs.google.com/spreadsheets/d/12PdS8-JizB5LhMW7N6cwIU0DDgfvQI3H/edit?usp=sharing&ouid=115520419472496123614&rtpof=true&sd=true"
     :reverse="true"
   />
 </template>

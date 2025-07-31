@@ -21,7 +21,7 @@
       imageSrc="imgsOK/ensinomedio-grande.svg"
       imageAlt="EnsinoMedio"
       buttonText="Inscreva-se"
-      buttonLink="#"
+      buttonLink="https://sites.atarde.com.br/jovemjornalista/"
       :reverse="true"
     />
   </section>

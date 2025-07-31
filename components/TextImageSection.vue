@@ -4,7 +4,7 @@
       <h2 v-html="title"></h2>
       <p class="subtitle" v-if="subtitle" v-html="subtitle"></p>
       <p v-if="description" class="description" v-html="description"></p>
-      <a v-if="buttonText && buttonLink" :href="buttonLink" class="btn-primary">{{ buttonText }}</a>
+      <a v-if="buttonText && buttonLink" :href="buttonLink" target="_blank" class="btn-primary">{{ buttonText }}</a>
     </div>
     <div class="image-content">
       <img :src="imageSrc" :alt="imageAlt" loading="lazy" />

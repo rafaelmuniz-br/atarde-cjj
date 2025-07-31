@@ -18,7 +18,7 @@
           <li><NuxtLink to="/fale-conosco" @click="isMenuOpen = false">Fale Conosco</NuxtLink></li>
         </ul>
         <a 
-          href="https://www.youtube.com/" 
+          href="https://sites.atarde.com.br/jovemjornalista/" 
           target="_blank" 
           rel="noopener noreferrer" 
           class="cta"

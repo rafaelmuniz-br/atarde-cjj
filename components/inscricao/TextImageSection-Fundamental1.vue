@@ -19,7 +19,7 @@
       imageSrc="imgsOK/fundamental1-grande.svg"
       imageAlt="Fundamental1"
       buttonText="Inscreva-se"
-      buttonLink="#"
+      buttonLink="https://sites.atarde.com.br/jovemjornalista/"
       :reverse="true"
     />
   </section>

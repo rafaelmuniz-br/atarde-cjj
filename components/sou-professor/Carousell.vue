@@ -12,7 +12,7 @@
         <h3 v-html="item.title"></h3>
         <p class="description" v-html="item.description"></p>
         <a v-if="index === 0"
-          :href="planilhaLink"
+          href="https://docs.google.com/spreadsheets/d/12PdS8-JizB5LhMW7N6cwIU0DDgfvQI3H/edit?usp=sharing&ouid=115520419472496123614&rtpof=true&sd=true"
           target="_blank"
           rel="noopener noreferrer"
           class="btn-planilha"

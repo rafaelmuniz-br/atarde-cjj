@@ -6,7 +6,7 @@
     imageSrc="imgsOK/missoes.svg"
     imageAlt="Missões"
     buttonText="Inscreva-se"
-    buttonLink="#"
+    buttonLink="https://sites.atarde.com.br/jovemjornalista/"
     :reverse="true"
   />
 </template>

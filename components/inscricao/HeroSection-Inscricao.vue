@@ -3,7 +3,7 @@
     title="Inscreva-se Aqui"
     description="Realize sua inscrição através do formulário abaixo"
     buttonText="Inscreva-se agora"
-    buttonLink="#inscreva-se"
+    buttonLink="https://sites.atarde.com.br/jovemjornalista/"
     imageSrc="imgsOK/mosaico-inscricao.svg"
     imageAlt="Imagem sobre o concurso"
   />

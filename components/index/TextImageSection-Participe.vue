@@ -7,7 +7,7 @@
     imageSrc="imgsOK/participe.svg"
     imageAlt="Participe"
     buttonText="Inscreva-se"
-    buttonLink="#"
+    buttonLink="https://sites.atarde.com.br/jovemjornalista/"
     :reverse="false"
   />
 </template>

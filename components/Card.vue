@@ -11,7 +11,7 @@
       <div class="card__content">
         <h2 class="card__title" :style="{ color: titleColor }">{{ title }}</h2>
         <p class="card__description" :style="{ color: descriptionColor }" v-html="description"></p>
-        <a v-if="linkText && linkHref" :href="linkHref" class="card__link" :style="{ color: linkColor }">
+        <a v-if="linkText && linkHref" :href="linkHref" target="_blank" class="card__link" :style="{ color: linkColor }">
           {{ linkText }} <span class="card__arrow" :style="{ color: arrowColor }">→</span>
         </a>
       </div>

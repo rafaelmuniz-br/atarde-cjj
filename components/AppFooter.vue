@@ -5,7 +5,7 @@
         <div class="footer-left">
           <p class="footer-title">Participe do CCJJ 2025</p>
           <p class="footer-subtitle">Saiba o que é necessário para dar voz ao planeta</p>
-          <a href="#" class="footer-cta">Inscreva-se agora <span>→</span></a>
+          <a href="https://sites.atarde.com.br/jovemjornalista/" target="_blank" class="footer-cta">Inscreva-se agora <span>→</span></a>
           <div class="footer-social">
             <a href="#"><img src="/icons/instagram.svg" alt="Instagram" /></a>
             <a href="#"><img src="/icons/facebook.svg" alt="Facebook" /></a>

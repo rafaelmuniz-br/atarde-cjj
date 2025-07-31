@@ -4,7 +4,7 @@
     title="Quer saber mais sobre o projeto?"
     description="Saiba o que é necessário para dar voz ao planeta"
     linkText="Inscreva-se agora"
-    linkHref="#"
+    linkHref="https://sites.atarde.com.br/jovemjornalista/"
     imageSrc="imgsOK/mosaico-card1.svg"
     imageAlt="Imagem Saiba Mais"
     :reverse="false"

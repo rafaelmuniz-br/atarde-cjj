@@ -25,7 +25,7 @@
       imageSrc="imgsOK/EJA-grande.svg"
       imageAlt="EJA"
       buttonText="Inscreva-se"
-      buttonLink="#"
+      buttonLink="https://sites.atarde.com.br/jovemjornalista/"
       :reverse="false"
     />
   </section>
