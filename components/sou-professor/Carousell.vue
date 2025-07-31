@@ -11,6 +11,13 @@
       <div class="card" v-for="(item, index) in steps" :key="index">
         <h3 v-html="item.title"></h3>
         <p class="description" v-html="item.description"></p>
+        <a v-if="index === 0"
+          :href="planilhaLink"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="btn-planilha"
+          >Planilha</a
+        >
       </div>
     </div>
   </section>
@@ -41,6 +48,23 @@
 </script>
   
 <style scoped>
+  .btn-planilha {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #EE9137; /* cor do botão */
+    border-radius: 8px;
+    color: white;
+    font-weight: 700;
+    font-family: 'Codec Warm Trial', sans-serif;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-align: center; /* centraliza texto */
+    width: 100%; /* faz o botão ocupar toda a largura do card */
+    box-sizing: border-box;
+  }
+
   .categorias-wrapper {
     display: flex;
     gap: 40px;
@@ -94,6 +118,7 @@
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
+    height: 270px;
   }
   
   .card h3 {
