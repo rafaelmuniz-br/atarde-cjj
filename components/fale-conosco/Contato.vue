@@ -84,20 +84,41 @@
 </template>
 
 <script setup lang="ts">
-  import { ref } from 'vue'
-  
-  const formData = ref({
-    fullName: '',
-    email: '',
-    phone: '',
-    municipality: '',
-    message: '',
-  })
-  
-  const handleSubmit = () => {
-    console.log('Dados do formulário enviados:', formData.value)
-    alert('Mensagem enviada com sucesso!')
+import { ref } from 'vue'
+import emailjs from '@emailjs/browser'
+
+const formData = ref({
+  fullName: '',
+  email: '',
+  phone: '',
+  municipality: '',
+  message: '',
+})
+
+const handleSubmit = () => {
+  const templateParams = {
+    fullName: formData.value.fullName,
+    email: formData.value.email,
+    phone: formData.value.phone,
+    municipality: formData.value.municipality,
+    message: formData.value.message,
   }
+
+  emailjs
+    .send(
+      'service_izksawl',      // seu service ID
+      'template_4q553yd',     // seu template ID
+      templateParams,
+      'yOVXzc8dVipXyXT4S'     // sua public key (User/Public Key do EmailJS)
+    )
+    .then(() => {
+      alert('Mensagem enviada com sucesso!')
+    })
+    .catch((error) => {
+      console.error('Erro ao enviar mensagem:', error)
+      alert('Erro ao enviar mensagem. Tente novamente.')
+    })
+}
 </script>
 
 <style scoped>
