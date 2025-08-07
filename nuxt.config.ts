@@ -6,7 +6,6 @@ export default defineNuxtConfig({
 
   // *** INÍCIO DA MODIFICAÇÃO AQUI ***
   app: {
-    baseURL: '/atarde-cjj/', // ESSENCIAL para repositórios de projeto no GitHub Pages
     head: {
       // Aqui adicionar as otimizações de head (meta tags, preconnect, preload, etc.)
       // Por exemplo:
@@ -27,7 +26,10 @@ export default defineNuxtConfig({
   // Geração estática (SSG)
   nitro: {
     preset: 'static',
-    compressPublicAssets: true // Adicionei isso para otimização
+    compressPublicAssets: true, // Adicionei isso para otimização
+    prerender: {
+      routes: ['/'], // Garante que a página inicial seja incluída
+    }
   },
 
   // Ativa auto-import de componentes
